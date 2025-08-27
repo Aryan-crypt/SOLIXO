@@ -60,26 +60,34 @@ Looking for a powerful AI browser agent without the $200/month price tag of Open
 > **Note**: While SOLIXO may function on other Chromium-based browsers, we recommend using Chrome or Edge for the best experience and guaranteed compatibility.
 
 
-## 🚀 Quick Start (Manual Installation)
+## 🚀 Installation
 
-To install SOLIXO manually:
+SOLIXO can be installed manually in Chrome or Edge browsers:
 
-1. **Download the Latest Release**:
-   * Go to the [Releases page](https://github.com/Aryan-crypt/SOLIXO/releases) on GitHub
-   * Download the latest `solixo-extension.zip` file
+### Download
+1. Go to the [Releases page](https://github.com/Aryan-crypt/SOLIXO/releases)
+2. Download the latest `solixo-extension-vX.X.X.zip` file
 
-2. **Install the Extension**:
-   * Unzip the downloaded file
-   * Open `chrome://extensions/` in Chrome
-   * Enable `Developer mode` (toggle in the top right corner)
-   * Click `Load unpacked` (button in the top left)
-   * Select the unzipped folder
+### Install
+1. Extract the ZIP file to a folder
+2. Open Chrome or Edge browser
+3. Go to `chrome://extensions/` (Chrome) or `edge://extensions/` (Edge)
+4. Enable "Developer mode"
+5. Click "Load unpacked"
+6. Select the extracted folder
 
-3. **Configure Agent Models**:
-   * Click the SOLIXO icon in your toolbar to open the sidebar
-   * Click the `Settings` icon (top right)
-   * Add your LLM API keys
-   * Choose which model to use for different agents (Navigator, Planner)
+That's it! SOLIXO is now installed and ready to use.
+
+### Configure API Keys
+1. Click on the SOLIXO icon in your browser toolbar
+2. Click the Settings icon (gear icon) in the top right
+3. Add your API keys for the AI providers you want to use:
+   - OpenAI API key (for GPT models)
+   - Anthropic API key (for Claude models)
+   - Google AI API key (for Gemini models)
+   - Groq API key (for fast inference)
+   - Ollama setup (for local models)
+4. Select which models to use for the Planner and Navigator agents
 
 ## 🛠️ Build from Source
 
