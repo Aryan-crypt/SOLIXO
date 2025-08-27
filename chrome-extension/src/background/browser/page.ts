@@ -1420,7 +1420,6 @@ export default class Page {
       'advertising',
       // Social media widgets
       'facebook.com/plugins',
-      'platform.twitter',
       'linkedin.com/embed',
       // Live chat and support
       'livechat',

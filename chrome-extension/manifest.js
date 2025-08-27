@@ -39,7 +39,7 @@ function withOperaSidebar(manifest) {
   return deepmerge(manifest, {
     sidebar_action: {
       default_panel: 'side-panel/index.html',
-      default_title: 'Nanobrowser',
+      default_title: 'SOLIXO by Aryan Sahani',
       default_icon: 'icon-32.png',
     },
   });

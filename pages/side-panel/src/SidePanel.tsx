@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { RxDiscordLogo } from 'react-icons/rx';
+import { CgDarkMode } from 'react-icons/cg';
+import { FaGithub } from 'react-icons/fa';
 import { FiSettings } from 'react-icons/fi';
 import { PiPlusBold } from 'react-icons/pi';
 import { GrHistory } from 'react-icons/gr';
@@ -1038,13 +1039,6 @@ const SidePanel = () => {
                 </button>
               </>
             )}
-            <a
-              href="https://discord.gg/NN3ABHggMK"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`header-icon ${isDarkMode ? 'text-sky-400 hover:text-sky-300' : 'text-sky-400 hover:text-sky-500'}`}>
-              <RxDiscordLogo size={20} />
-            </a>
             <button
               type="button"
               onClick={() => chrome.runtime.openOptionsPage()}
@@ -1085,7 +1079,7 @@ const SidePanel = () => {
               <div
                 className={`flex flex-1 items-center justify-center p-8 ${isDarkMode ? 'text-sky-300' : 'text-sky-600'}`}>
                 <div className="max-w-md text-center">
-                  <img src="/icon-128.png" alt="Nanobrowser Logo" className="mx-auto mb-4 size-12" />
+                  <img src="/icon-128.png" alt="SOLIXO Logo" className="mx-auto mb-4 size-12" />
                   <h3 className={`mb-2 text-lg font-semibold ${isDarkMode ? 'text-sky-200' : 'text-sky-700'}`}>
                     {t('welcome_title')}
                   </h3>
@@ -1099,19 +1093,11 @@ const SidePanel = () => {
                   </button>
                   <div className="mt-4 text-sm opacity-75">
                     <a
-                      href="https://github.com/nanobrowser/nanobrowser?tab=readme-ov-file#-quick-start"
+                      href="https://github.com/aryansahani/solixo"
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`${isDarkMode ? 'text-sky-400 hover:text-sky-300' : 'text-sky-700 hover:text-sky-600'}`}>
                       {t('welcome_quickStart')}
-                    </a>
-                    <span className="mx-2">•</span>
-                    <a
-                      href="https://discord.gg/NN3ABHggMK"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`${isDarkMode ? 'text-sky-400 hover:text-sky-300' : 'text-sky-700 hover:text-sky-600'}`}>
-                      {t('welcome_joinCommunity')}
                     </a>
                   </div>
                 </div>

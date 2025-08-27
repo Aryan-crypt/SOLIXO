@@ -1,11 +1,11 @@
 {
-  "name": "nanobrowser",
-  "version": "0.1.9",
+  "name": "solixo",
+  "version": "1.0.0",
   "description": "AI web automation tool",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nanobrowser/nanobrowser.git"
+    "url": "https://github.com/Aryan-crypt/SOLIXO.git"
   },
   "type": "module",
   "scripts": {
